@@ -20,11 +20,6 @@ concurrency:
   group: "pages"
   cancel-in-progress: false
 
-on:
-  push:
-    branches:
-      - main  # or the branch you want to deploy from
-
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
